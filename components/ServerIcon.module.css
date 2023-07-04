@@ -1,0 +1,55 @@
+.image {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: block;
+  margin: 10px auto 10px auto;
+  border-radius: 30px;
+  transition: all 0.15s ease-out;
+}
+.image:hover {
+  border-radius: 22px;
+  cursor:pointer;
+}
+
+.discordLogoWrapper {
+
+  width: 60px;
+  height:60px;
+  position: relative;
+  display: block;
+  border-radius: 30px;
+  transition: all 0.15s ease-out;
+  margin: 10px auto 10px auto;
+  background-color: var(--background-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discordLogo {
+  width: 35px;
+  height: 35px;
+
+}
+.discordLogoWrapper:hover {
+  border-radius: 22px;
+  background-color: var(--discord-purple);
+  cursor: pointer;
+}
+.serverName {
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  font-size: 16px;
+  max-width: 280px;
+  min-width: 150px;
+  color:var(--discord-white);
+  position:absolute;
+  transform: translateX(100px) translateY(-70px);
+  z-index: 10;
+  background-color: var(--discord-black);
+  border-radius: 8px;
+  display:inline-block;
+  transition: all 0.15s ease-out;
+
+}
+

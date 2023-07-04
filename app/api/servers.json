@@ -1,0 +1,87 @@
+{
+  "Servers": [
+    {
+      "name": "Oski's Anime Lounge",
+      "id": 1,
+      "icon": "/server-icons/icon_panda.png",
+      "categories": [
+        {
+          "name": "SERVER",
+          "channels": [
+            "server-rules",
+            "announcements",
+            "auto-roles",
+            "event-suggestions",
+            "introductions",
+            "og-squad",
+            "event-planner-apply",
+            "event-staff-chat"
+          ]
+        },
+        {
+          "name": "GENERAL",
+          "channels": [
+            "general",
+            "berkeley",
+            "schedules",
+            "art-and-media",
+            "simp",
+            "music",
+            "quotes",
+            "anime-and-manga",
+            "gaming",
+            "board-games",
+            "memes",
+            "pet-pics",
+            "fashion-ootd",
+            "food-frenzy",
+            "mal",
+            "hiking"
+          ]
+        },
+        {
+          "name": "MUDAE",
+          "channels": [
+            "rolls",
+            "bot",
+            "discussion",
+            "debt",
+            "auctions",
+            "free-giveaways"
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "name": "Wholesome Birbs",
+      "id": 1,
+      "icon": "/server-icons/icon_chicken.png",
+      "categories": [
+        {
+          "name": "TEST",
+          "channels": [
+            "general"
+          ]
+        }
+        
+      ]
+    },
+    {
+      "name": "AP Calculus BC",
+      "id": 1,
+      "icon": "/server-icons/icon_snake.png",
+      "categories": [
+        {
+          "name": "TEST",
+          "channels": [
+            "general"
+          ]
+        }
+        
+      ]
+    }
+
+  ]
+}
